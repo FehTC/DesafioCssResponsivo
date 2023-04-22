@@ -1,0 +1,492 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+:root{
+    --bg-color-green:#38AF90;
+    --bg-color-white:#fff;
+    --bg-color-gray:#E5E5E5;
+    ---bg-color-white:#F0F0F0;
+    --color-gray:#797979;
+    --color-red:#DD7E92;
+    --color-black:#383838;
+    --color-gray-c4:#C4C4C4;
+}
+
+*{
+    box-sizing: border-box;   
+}
+
+html,body{
+    margin: 0;
+    padding: 0;
+    font-family:'Poppins',sans-serif;
+}
+
+/* HEADER */ 
+.nav-container{
+    background-color: var(--bg-color-green);
+    height: 90px;
+    width: 100%;
+    display: flex;
+}
+
+.menu-itens{
+    display: none;
+}
+
+.nav-container h1{
+    height: 27px;
+    width: 131px;
+    color: var(--bg-color-white);
+    font-size: 1.125rem;
+}
+
+.nav-container img{
+    height: 62px;
+    width: 62px;
+}
+
+.nav-main{
+    width: 100%;
+    max-width: 300px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* CONTAINER */
+.container{
+    width: 100%;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+/* SEÇÃO ULTIMAS NOTICIAS STATUS*/
+#last-notices{
+    background-color:var(--bg-color-gray);
+    padding: 40px 10px;
+}
+
+#last-notices h1{
+    margin: 0 auto;
+    width: 300px;
+    height: 36px;
+    margin-bottom: 8px;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    color: var(--color-gray);
+}
+
+.texts-notice{
+    background-color: var(---bg-color-white);
+    margin-bottom: 28px;
+    padding-right: 12px;
+    padding-left: 12px;
+    border-radius: 8px;
+    height: 493px;
+}
+
+.texts-notice h2{
+    padding-top: 16px;
+    padding-bottom: 3px;
+    color: var(--bg-color-green);
+    font-size: 1rem;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.texts-notice h3 {
+    font-size: 0.75rem;
+    color:var(--color-gray) ;
+    margin: 0;
+    padding-bottom: 3px;
+    border-bottom: 1px solid var(--bg-color-green) ;
+}
+
+.date-notice {
+    margin-top: 1px;
+    margin-bottom: 12px;
+    font-size: 10px;
+    color: var(--bg-color-green);
+}
+
+.content-notice{
+    margin: 0;
+    font-size: 0.625rem;
+    height: 329px;
+    color: var(--color-gray);
+}
+
+.texts-notice h4 {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 0px;
+    padding-bottom: 12px;
+    font-size: 14px;
+    color: var(--color-red);
+}
+
+#last-notices button{
+    background-color: var(--color-red);
+    color: var(--bg-color-white);
+    border-radius: 8px;
+    font-size: 18px;
+    width:244px;
+    height: 67px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    border: none;
+}
+
+/* SEÇÃO GAMES STATUS: Finalizada*/
+#package-games{
+    padding-top: 40px;
+    padding-bottom: 13px;
+    background-color: var(---bg-color-white);
+    display: flex;
+    flex-direction: column;
+}
+
+.title-game{
+    color: var(--bg-color-green);
+    font-size: 1.5rem;
+    width: 75px;
+    height: 36px; 
+    margin-bottom: 28px;
+}
+
+.elements-game {
+    background-color: var(--bg-color-white);
+    height: 326px;
+    border-radius: 0 0 8px 8px;
+    margin-bottom: 27px;
+}
+
+#package-games img {
+    margin: 0;
+    padding: 0;
+    width: 300px;
+    height: 168.54px;
+    border-radius: 8px 8px 0 0;
+}
+
+.name-game{
+    text-align: center;
+    margin-top: 27.46px;
+    margin-bottom: 0px;
+    font-size: 18px;
+    color: var(--color-gray);
+}
+
+.elements-game p{
+     color: var(--color-gray);
+     font-size: 12px; 
+     text-align: center;
+     margin-top: 0px;
+     margin-bottom: 13px;
+ }
+ 
+ .elements-game span {
+    font-weight: bold;
+    color: var(--bg-color-green);
+    font-size: 14px;
+}
+
+.score-game{
+    width: 52px;
+    height: 54px;
+    font-size: 36px;
+    color: var(--bg-color-green);
+    margin: 0 auto;
+    margin-bottom: 15px;
+    margin-top: 13px;
+  }
+
+  /* SEÇÃO INSCREVA-SE  STATUS*/
+  #enrollment{
+    width: 100%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color:var(--bg-color-gray) ;
+    color: var(--color-gray);
+  }
+
+  .elements-enrollment{
+    background-color: var(---bg-color-white);
+    border-radius: 8px;
+    padding-right: 12px;
+    padding-left: 8px;
+    height: 603px; 
+}
+
+#enrollment h1{
+    font-size: 1.5rem;
+    color: var(--color-gray);
+    text-align: center;
+    margin: 0;
+    margin-bottom: 16px;
+}
+
+.boxes-enrollment {
+    display: flex;
+    flex-direction: column;
+}
+
+.name-enrollment {
+    width: 280px;
+    height: 50px;
+    margin: 52px 0 20px 0px;
+    border-radius: 4px;
+    border: 2px solid var(--color-gray); 
+}
+.name-enrollment::placeholder{
+    font-size: 1rem;
+    width: 130px;
+    line-height: 24px;
+    padding: 22px 13px;
+    color: var(--color-gray-c4);
+}
+
+.email-enrollment {
+    width: 280px;
+    height: 50px;
+    margin: 0px 0 20px 0px;
+    border-radius: 4px;
+    border: 2px solid var(--color-gray);
+}
+
+.email-enrollment::placeholder{
+    font-size: 1rem;
+    width: 130px;
+    line-height: 24px;
+    padding: 22px 13px;
+    color: var(--color-gray-c4);
+}
+
+.elements-enrollment p {
+    margin: 0;
+    margin-bottom: 8px;
+}
+
+.enrollment-optionbutton{
+    display: flex;
+    flex-direction: column;
+    margin: 8px 0px 0px 0px;
+  }
+
+.enrollment-checkbox {
+    display: flex;
+    align-items: center;
+    margin: 35px 0 47px 0;
+}
+
+#enrollment button{
+    width: 244px;
+    height: 67px;
+    border-radius: 8px ;
+    font-size: 18px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.submit-button{
+    background-color: var(--color-red);
+    color: var(--bg-color-white);
+    border: none;
+}
+
+.reset-button{
+    background-color: var(--bg-color-white);
+    color: var(--color-red);
+    border: 2px solid var(--color-red);
+}
+
+.button-enrollment {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* SEÇÃO Finalizada */
+footer{
+    margin: 0;
+    padding: 0;
+    height: 302px;
+    background-color: var(--color-black);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer p{
+    margin: 0;
+}
+
+.footer-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 14px;
+    color: var(--bg-color-white);
+
+}
+.copyright{
+   text-align: center;
+   padding: 37px;
+}
+
+@media(min-width:768px){
+
+    .menu-itens{display:block;}
+    
+    html {
+        font-size: 21.3;
+    }
+
+    .nav-main{
+        max-width: 990px;
+        padding: 0 10px 0 10px;
+    }
+    
+    .itens-img{
+        display: flex;
+    }
+
+    .menu-itens{
+        padding: 0;
+        display: flex;
+    }
+
+    .menu-itens li{
+        list-style-type: none;
+        margin-right: 29px;
+    }
+
+    .nav-main a{
+        font-size: 14px;
+        color: var(--bg-color-white);
+        text-decoration: none;
+    }
+
+    .container{
+        width: 100%;
+        max-width: 990px;
+        margin: 0 auto;
+    }
+
+    #last-notices{
+        padding-bottom: 60px;
+    }
+
+    #last-notices h1{
+        width: 500px;
+        height: 54px;
+        font-size: 36px;
+        margin-bottom: 40px;  
+    }
+
+    .texts-notice{
+        height: 247px;
+        width: calc(100%- 210);
+        margin-bottom: 40px;
+    }
+
+    .texts-notice h2{
+        font-size: 24px;
+        padding-bottom: 0;
+    }
+
+    .texts-notice h3 {
+        padding-bottom: 0;
+        font-size: 16px;
+    }
+
+    .date-notice{
+        margin-top: 5px;
+        margin-bottom: 16px; 
+    }
+
+    .content-notice{
+        max-width: 909px;
+        max-height: 92px;
+    }
+
+    .texts-notice h4{
+        padding-top: 7px;
+        padding-bottom: 15px; 
+    }
+
+    #package-games{
+        padding-top: 36px;
+        padding-bottom: 70px;
+    }
+
+    .title-game{
+        text-align: center;
+        margin-bottom: 73px;
+    }
+
+    .elements-group-cards{
+        display: flex;
+        max-width: 990px;
+        margin: 0 auto;
+    }
+    
+    .elements-game{
+        max-width: 300px;
+        margin-left: 15px;
+        margin-right: 15px;         
+    }
+
+    #enrollment{
+        padding-top: 39px;
+        padding-bottom: 61px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #enrollment h1{
+        margin-bottom: 40px;
+    }
+
+    .boxes-enrollment input{
+        width: 642px;
+    }
+
+    .elements-enrollment {
+        max-width: 790px;
+        max-height: 522px;
+        padding-left: 73px;
+        display: flex;
+        flex-direction: column;
+    }
+    .button-enrollment{
+        height: 108px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+     
+    .footer-text{
+        max-width: 990px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+       
+    }
+    .copyright{
+        padding: 0;
+        margin-left: 225px;
+        margin-right: 168px;
+    }
+    
+}
+
+
+
+
+
+
+
